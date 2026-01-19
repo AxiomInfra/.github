@@ -7,7 +7,7 @@ We focus on strict local–cloud boundaries, privacy-preserving context transfor
 
 This organization hosts Axiom’s open-core components, tooling, and references.  
 
-🚀 **`axiom-sdk` is launching soon.**
+🚀 **`axiom-infra-sdk` is launching soon.**
 
 
 ### 📬 Contact
