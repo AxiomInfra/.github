@@ -11,6 +11,6 @@ This organization hosts Axiom’s open-core components, tooling, and references.
 
 
 ### 📬 Contact
-- General: **hello@axiom.ai**  
-- Security: **security@axiom.ai**  
-- Website: **https://axiom.ai**
+- General: **hello@axiominfra.cloud**  
+- Security: **security@axiominfra.cloud**  
+- Website: **https://axiominfra.cloud**
