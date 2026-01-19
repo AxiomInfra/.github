@@ -25,7 +25,7 @@ reasoning value while removing identifying information.
 
 At a high level:
 
-'''
+```
 Raw Local Data
 ↓
 Semantic Abstraction (structure, not raw text)
@@ -35,7 +35,7 @@ Identity Removal
 Boundary Enforcement
 ↓
 Safe-to-Share Reasoning Context
-'''
+```
 
 Only the transformed context is intended to be shared downstream.
 
