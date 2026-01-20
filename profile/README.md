@@ -2,6 +2,7 @@
 
 **The semantic boundary for AI systems**
 
+<img width="1536" height="1024" alt="axiom-core diagram" src="https://github.com/user-attachments/assets/e427ca1a-cf69-478a-a4ef-6ec6d6b3d603" />
 
 ---
 
