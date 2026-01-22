@@ -1,46 +1,53 @@
-# Axiom Infra 
+# Axiom Infra
 
-**The semantic boundary for AI systems** 🔒
-
----
-
-## 🎯 Mission
-
-**Axiom Infra makes it possible for AI systems to reason over sensitive data without that data ever leaving its trusted boundary.**
-
-As AI models grow more capable, the limiting factor is no longer intelligence — it’s how context is handled.  
-Axiom Infra solves this at the infrastructure layer.
-
-Enterprises can’t use cloud LLMs on real internal data because compliance teams block it — we make that possible without exposing the data.
+**The semantic boundary for AI systems**
 
 ---
 
-## 🧩 The Pain We Solve
+## Mission
 
-- 🏢 **Cloud AI can’t access sensitive data** (compliance, residency, audit constraints)  
-- ✂️ **Redaction breaks reasoning** (key context gets lost)  
-- 🔐 **Encryption blocks utility** (models can’t reason on ciphertext)  
-- ✅ **Enterprises need proof** that sensitive data never left the boundary  
+**Axiom Infra enables AI systems to reason over sensitive data without that data ever leaving its trusted boundary.**
 
----
+As AI models become more capable, the real bottleneck is no longer intelligence — it’s how context is handled under compliance constraints.
 
-## ✨ What Makes Axiom-Core SDK Unique
-
-Most privacy tools protect data but **break reasoning**.  
-Axiom-Core SDK preserves **meaning** while removing **identity**, and provides **verifiable evidence**.
-
-**Axiom-Core SDK combines:**
-- 🧬 **Semantic abstraction** (structure preserved, identifiers removed)  
-- 🧾 **Deterministic transformation** (auditable and repeatable)  
-- 🚧 **Explicit boundary enforcement** (raw data never exits)  
-- 🛡️ **Attested execution (preview)** for verification workflows  
+Enterprises want to use cloud LLMs on real internal data, but compliance teams block it.  
+**Axiom Infra makes that possible without exposing the data.**
 
 ---
 
-## ⚙️ Technical Impact
+## The Problem
 
-Axiom-Core SDK enables **high‑fidelity reasoning** in regulated environments without exposing raw data.  
-It turns sensitive input into **safe, structured context** that can be sent to cloud models.
+Modern AI adoption in regulated environments is blocked by a fundamental tradeoff:
+
+- **Cloud AI can’t access sensitive data** due to compliance, residency, and audit constraints  
+- **Redaction breaks reasoning quality** by removing critical context  
+- **Encryption preserves privacy but blocks utility** — models can’t reason on ciphertext  
+- **Compliance teams require proof**, not promises, that data never crossed the boundary  
+
+Existing tools solve parts of this problem — **none solve it end-to-end**.
+
+---
+
+## What Makes Axiom-Core Different
+
+Most privacy tools protect data by **reducing usefulness**.  
+Axiom-Core protects data by **changing how context is represented**.
+
+**Axiom-Core SDK provides:**
+- **Semantic abstraction** — preserves structure and relationships while removing identity  
+- **Deterministic transformation** — repeatable, auditable, and policy-enforceable  
+- **Explicit boundary enforcement** — raw data is never allowed to exit  
+- **Attested execution (preview)** — verification for regulated workflows  
+
+The result is **AI-usable context without data exposure**.
+
+---
+
+## How It Works (Conceptual)
+
+Axiom-Core runs locally and transforms sensitive input into a safe, structured representation that cloud AI models can reason over — without ever seeing the raw data.
+
+
 ```
 ┌──────────────────────────────────────────────┐  
 │                Raw Local Data                │  
@@ -66,17 +73,18 @@ It turns sensitive input into **safe, structured context** that can be sent to c
 │     Safe-to-Share Reasoning Context          │  
 └──────────────────────────────────────────────┘  
 ```
+
 ---
 
-## 📦 Repositories
+## Repositories
 
-- **`axiom-core`** — Axiom-Core SDK (local transformation + verification tools)  
-- **`axiom-core-docs`** — documentation & guides  
-- **`axiom-website`** — product site  
+- **axiom-core** — core SDK for semantic transformation and boundary enforcement  
+- **axiom-core-docs** — documentation, guides, and examples  
+- **axiom-website** — project website  
 
-📚 Docs: https://axiominfra.github.io/axiom-core-docs
+Documentation: https://axiominfra.github.io/axiom-core-docs
 
 ---
 
 > **Intelligence without boundaries is not trustworthy.**  
-> *Axiom Infra defines the boundary.*
+> **Axiom Infra defines the boundary.**
