@@ -6,7 +6,7 @@
 
 ## 🎯 Mission
 
-**Axiom-Core SDK makes it possible for AI systems to reason over sensitive data without that data ever leaving its trusted boundary.**
+**Axiom Infra makes it possible for AI systems to reason over sensitive data without that data ever leaving its trusted boundary.**
 
 As AI models grow more capable, the limiting factor is no longer intelligence — it’s how context is handled.  
 Axiom Infra solves this at the infrastructure layer.
