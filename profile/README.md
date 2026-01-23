@@ -8,7 +8,6 @@
 
 It is designed from day one for high-quality reasoning, auditability, and compliance in regulated environments.
 
----
 
 ## Mission
 
@@ -19,7 +18,6 @@ As AI models become more capable, the real bottleneck is no longer intelligence 
 Enterprises want to use cloud LLMs on real internal data, but compliance teams block it.  
 **Axiom Infra makes that possible without exposing the data.**
 
----
 
 ## The Problem
 
@@ -32,7 +30,6 @@ Modern AI adoption in regulated environments is blocked by a fundamental tradeof
 
 Existing tools solve parts of this problem — **none solve it end-to-end**.
 
----
 
 ## What Axiom Infra Is Not
 
@@ -44,7 +41,6 @@ Existing tools solve parts of this problem — **none solve it end-to-end**.
 Axiom Infra is an infrastructure layer designed to enforce a semantic boundary:  
 raw data stays inside a trusted environment, while structured meaning remains usable for cloud-scale AI reasoning.
 
----
 
 ## What Makes Axiom-Core Different
 
@@ -59,7 +55,6 @@ Axiom-Core protects data by **changing how context is represented**.
 
 The result is **AI-usable context without data exposure**.
 
----
 
 ## How It Works (Conceptual)
 
@@ -92,7 +87,6 @@ Axiom-Core runs locally and transforms sensitive input into a safe, structured r
 └──────────────────────────────────────────────┘  
 ```
 
----
 
 ## Repositories
 
@@ -104,7 +98,6 @@ Documentation: https://axiominfra.github.io/axiom-core-docs
 
 Quick Demos: https://github.com/AxiomInfra/axiom-core-examples
 
----
 
 > **Intelligence without boundaries is not trustworthy.**  
 > **Axiom Infra defines the boundary.**
